@@ -52,7 +52,7 @@
 		<!-- MySQL Driver（追加） -->
 		<dependency>
     		<groupId>com.mysql</groupId>
-    		<artifactId>mysql-connector-j</artifactId> <!-- 「-j」に変更 -->
+    		<artifactId>mysql-connector-j</artifactId>
     		<scope>runtime</scope>
 		</dependency>
 
