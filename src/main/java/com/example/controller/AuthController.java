@@ -22,9 +22,9 @@ public class AuthController {
     // ユーザ作成処理
     @PostMapping("/register")
     public String registerUser(@RequestParam String username, 
-                               @RequestParam String password,
-                               @RequestParam String role,
-                               Model model) {
+                                @RequestParam String password,
+                                @RequestParam String role,
+                                Model model) {
         try {
             userService.registerUser(username, password, role);
         } catch (RuntimeException e) {
